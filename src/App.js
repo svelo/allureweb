@@ -4,7 +4,7 @@ import Layout from './core/layout/layout.component';
 
 function App() {
   return (
-    <div class="p-3 mb-2  text-white" style={{ 'background-color': '#e8e7e3' }}>
+    <div class="p-3 mb-2  text-white" style={{ backgroundColor: '#e8e7e3' }}>
       <div className="container">
         <Layout></Layout>
       </div>
