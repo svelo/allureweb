@@ -12,22 +12,22 @@ library.add(faCheckSquare, faCoffee, faHome);
 
 export default function Navbar() {
   return (
-    <nav class="navbar navbar-expand navbar-dark bg-dark rounded">
-      <ul class="navbar-nav">
-        <li class="nav-item">
+    <nav className="navbar navbar-expand navbar-dark bg-dark rounded">
+      <ul className="navbar-nav">
+        <li className="nav-item">
           <Link className="nav-link" to="/">
             {<FontAwesomeIcon icon="home" />}
           </Link>
         </li>
-        <li class="nav-item">
-          <Link className="nav-link" to="/company">
+        <li className="nav-item">
+          <Link className="nav-link" to="/empresa">
             {' Empresa '}
           </Link>
         </li>
 
-        <li class="nav-item">
-          <Link className="nav-link" to="/users">
-            {' Link 3 '}
+        <li className="nav-item">
+          <Link className="nav-link" to="/presupuesto">
+            {' Presupuesto '}
           </Link>
         </li>
       </ul>

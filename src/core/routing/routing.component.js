@@ -7,7 +7,7 @@ export default function Routing() {
   return (
     <div className="container">
       <Switch>
-        <Route path="/company">
+        <Route path="/empresa">
           <Company />
         </Route>
         <Route path="/users"></Route>

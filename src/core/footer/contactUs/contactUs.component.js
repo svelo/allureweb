@@ -12,34 +12,36 @@ library.add(faEnvelope, faMobile, faPhone, faMapMarker);
 
 export default function ContactUs() {
   return (
-    <div class="container">
-      <div class=" row bg-dark rounded ">
-        <div class="row ">
-          <div class="col-md-1">{<FontAwesomeIcon icon="phone" />}</div>
-          <div class="col-md-11">
-            <span class="col-xs-10">945 311 401</span>
+    <div className="container">
+      <div className=" row bg-dark rounded ">
+        <div className="row ">
+          <div className="col-md-1">{<FontAwesomeIcon icon="phone" />}</div>
+          <div className="col-md-11">
+            <span className="col-xs-10">945 311 401</span>
           </div>
         </div>
-        <div class="row ">
-          <div class="col-md-1">{<FontAwesomeIcon icon="mobile" />}</div>
-          <div class="col-md-11">
-            <span class="col-xs-10">663 062 361</span>
+        <div className="row ">
+          <div className="col-md-1">{<FontAwesomeIcon icon="mobile" />}</div>
+          <div className="col-md-11">
+            <span className="col-xs-10">663 062 361</span>
           </div>
         </div>
-        <div class="row ">
-          <div class="col-md-1">{<FontAwesomeIcon icon="envelope" />}</div>
-          <div class="col-md-11">
-            <span class="col-xs-10">allureelectromecanica@gmail.com</span>
+        <div className="row ">
+          <div className="col-md-1">{<FontAwesomeIcon icon="envelope" />}</div>
+          <div className="col-md-11">
+            <span className="col-xs-10">allureelectromecanica@gmail.com</span>
           </div>
         </div>
-        <div class="row ">
-          <div class="col-md-1">{<FontAwesomeIcon icon="map-marker" />}</div>
-          <div class="col-md-11">
-            <span class="col-xs-11">c/ Iparraguirre nº1, Pabellón 3</span>
+        <div className="row ">
+          <div className="col-md-1">
+            {<FontAwesomeIcon icon="map-marker" />}
           </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-11">
-            <span class="col-xs-10">01006 Vitoria-Gasteiz Alava</span>
+          <div className="col-md-11">
+            <span className="col-xs-11">c/ Iparraguirre nº1, Pabellón 3</span>
+          </div>
+          <div className="col-md-1"></div>
+          <div className="col-md-11">
+            <span className="col-xs-10">01006 Vitoria-Gasteiz Alava</span>
           </div>
         </div>
       </div>
