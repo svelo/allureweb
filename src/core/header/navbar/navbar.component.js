@@ -20,12 +20,16 @@ export default function Navbar() {
             {' Empresa '}
           </Link>
         </li>
-
+        <li className="nav-item">
+          <Link className="nav-link" to="/contacto">
+            {' Contacto '}
+          </Link>
+        </li>
         <li className="nav-item">
           <Link className="nav-link" to="/presupuesto">
             {' Presupuesto '}
           </Link>
-        </li>
+        </li>{' '}
       </ul>
     </nav>
   );

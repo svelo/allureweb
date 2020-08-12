@@ -7,6 +7,7 @@ function App() {
     <div
       className="p-3 mb-2  text-white"
       style={{ backgroundColor: '#e8e7e3' }}
+      // style={{ backgroundColor: '	#172dba' }}
     >
       <div className="container">
         <Layout></Layout>

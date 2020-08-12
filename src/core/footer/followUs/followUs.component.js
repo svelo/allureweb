@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function FollowUs() {
   return (
-    <div class="row">
+    <div className="row">
       <div className="col-md-1 "></div>
       <div className="col-md-1 ">
         <a href="https://www.facebook.com/allureelectromecanica" target="blank">
