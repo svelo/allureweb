@@ -1,14 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import {
-  faHome,
-  faCheckSquare,
-  faCoffee,
-} from '@fortawesome/free-solid-svg-icons';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-library.add(faCheckSquare, faCoffee, faHome);
+library.add(faHome);
 
 export default function Navbar() {
   return (

@@ -4,6 +4,7 @@ export default function WhereWeAre() {
   return (
     <div className="embed-responsive embed-responsive-16by9">
       <iframe
+        title="Allure address"
         className="embed-responsive-item"
         width="300"
         height="200"
